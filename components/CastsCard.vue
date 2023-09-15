@@ -49,7 +49,7 @@
        this.casts = data.cast.map(cast => ({
          id: cast.id,
          castName: cast.name,
-         castImage: `https:image.tmdb.org/t/p/w185${cast.profile_path}`,
+         castImage: `https://image.tmdb.org/t/p/w185${cast.profile_path}`,
          characterPlayed: cast.character,
        }))
        this.$nextTick(() => {
